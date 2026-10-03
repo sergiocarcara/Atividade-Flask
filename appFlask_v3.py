@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 sergio_app = Flask(__name__)  #cria o objeto Flask, que é a aplicação web, e define a pasta templates como pasta de templates
 
 @sergio_app.route('/')
-@sergio_app.route('/ola')
+@sergio_app.route('/ola')#
 def raiz():   #esta função está vinculada a rota raiz e a rota /ola
               # essa função é chamada quando o usuário acessa a rota raiz ou a rota /ola e é chamada de endpoint
 

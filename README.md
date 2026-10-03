@@ -3,6 +3,7 @@
 Repositório do projeto da disciplina **Desenvolvimento Web III** (IFRO), com um aplicativo web em **Flask** desenvolvido em **7 versões evolutivas** — da primeira página de texto até um fluxo de login funcional com mensagens flash.
 
 ## Sobre a aplicação
+#
 
 O projeto acompanha o aprendizado de Flask passo a passo:
 

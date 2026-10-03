@@ -14,7 +14,7 @@ def index():   #esta função está vinculada a rota /index
 
 @sergio_app.route('/contato')
 def contato():
-    #return 'e-mail:mariela@ifro.edu.br'
+    #return 'e-mail:mariela@ifro.edu.br'#
     return render_template('contato.html')  #retorna o arquivo contato.html que está na pasta templates
 
 @sergio_app.route('/usuario')

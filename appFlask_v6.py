@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 sergio_app = Flask(__name__,template_folder='t_templates')  #cria o objeto Flask, que é a aplicação web, e define a pasta templates como pasta de templates
 
 
-@sergio_app.route('/ola')
+@sergio_app.route('/ola')#
 def raiz():   #esta função está vinculada a rota  /ola
     return render_template('homepage.html')  #retorna o arquivo index.html que está na pasta templates
 

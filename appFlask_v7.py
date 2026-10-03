@@ -44,7 +44,7 @@ Também precisa colocar que essa página aceita requisições de tipo GET ou POS
 O GET é padrão, mas no caso do POST altere no html method="POST"
 """
 @sergio_app.route("/autenticar", methods=['GET', 'POST']) 
-def autenticar():
+def autenticar():#
     #método POST - pega nos fields (campos) do formulário
     usuario = request.form.get('nome_usuario')
     senha = request.form.get('senha')
@@ -60,5 +60,5 @@ def autenticar():
 
 
 if __name__ == "__main__": 
-     sergio_app.run(port = 8000) 
+     sergio_app.run(port = 7000) 
      
